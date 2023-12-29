@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(41, 39, 39);
+}
+.image-container{
+    width: 60%;
+    min-height: 80vh;
+    background: url("https://img.freepik.com/premium-photo/man-bicycle-land-full-lanterns-digital-art-style-illustration-painting-fantasy-concept-man-bicycle_743201-8374.jpg") center/cover  no-repeat;
+    border: 0.5rem solid white;
+    border-radius: 40px;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 40px rgb(159, 156, 156);
+}
+.btn-left{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: aliceblue;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid black;
+    padding: 15px;
+    cursor: pointer;
+}
+.btn-right{
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: aliceblue;
+    font-size: 3rem;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid black;
+    padding: 15px;
+    cursor: pointer;
+}
